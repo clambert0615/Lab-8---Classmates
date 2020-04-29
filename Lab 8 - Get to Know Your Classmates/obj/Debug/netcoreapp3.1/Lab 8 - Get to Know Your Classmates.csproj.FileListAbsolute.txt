@@ -1,0 +1,13 @@
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.csprojAssemblyReference.cache
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.csproj.CoreCompileInputs.cache
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.AssemblyInfoInputs.cache
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.AssemblyInfo.cs
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.exe
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.deps.json
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.runtimeconfig.json
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.runtimeconfig.dev.json
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.dll
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\bin\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.pdb
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.dll
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.pdb
+C:\Grandcircus\Lab 8 - Get to Know Your Classmates\Lab 8 - Get to Know Your Classmates\obj\Debug\netcoreapp3.1\Lab 8 - Get to Know Your Classmates.genruntimeconfig.cache
