@@ -19,7 +19,7 @@ namespace Lab_8___Get_to_Know_Your_Classmates
             string nameInput;
             int nameIndex;
 
-            while(keepAsking)
+            while (keepAsking)
             {
                 Console.WriteLine("Would you like to search for students by number or name?");
                 string input = Console.ReadLine().ToLower().Trim();
@@ -28,14 +28,14 @@ namespace Lab_8___Get_to_Know_Your_Classmates
                 {
                     try
                     {
-                        Console.WriteLine("Enter student's name with a capital letter followed by lowercase letters");
+                        Console.WriteLine("Enter student's first name.");
                         nameInput = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(Console.ReadLine());
                         nameIndex = Array.IndexOf(students, nameInput);
                         studentNumber = studentNumbers[nameIndex];
                         numberToMatch = studentNumbers[studentNumber - 1] - 1;
                         keepAsking = false;
                     }
-                    catch(IndexOutOfRangeException)
+                    catch (IndexOutOfRangeException)
                     {
                         Console.WriteLine("Invalid name.  Please try again");
                         continue;
@@ -76,30 +76,47 @@ namespace Lab_8___Get_to_Know_Your_Classmates
                 keepAsking = true;
 
                 Console.WriteLine($"Student {studentNumber} is {matchStudenttoName}.");
-                Console.WriteLine($"What would you like to know about {matchStudenttoName}? enter \"hometown\" or \"favorite food\" or \"age\"");
-                string input2 = Console.ReadLine().ToLower().Trim();
-                if (input2 == "hometown")
+                bool knowMore = true;
+                while (knowMore)
                 {
-                    Console.WriteLine($"{matchStudenttoName} is from {matchStudenttoHometown}.");
-                }
-                else if (input2 == "favorite food")
-                {
-                    Console.WriteLine($"{matchStudenttoName}'s favorite food is {matchStudenttoFood}.");
-                }
-                else if (input2 == "age")
-                {
-                    Console.WriteLine($"{matchStudenttoName} is {matchStudenttoAge}");
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Try again");
-                    continue;
-                }
-                   
+                    Console.WriteLine($"What would you like to know about {matchStudenttoName}? enter \"hometown\" or \"favorite food\" or \"age\"");
+                    string input2 = Console.ReadLine().ToLower().Trim();
+                    if (input2 == "hometown")
+                    {
+                        Console.WriteLine($"{matchStudenttoName} is from {matchStudenttoHometown}.");
+                    }
+                    else if (input2 == "favorite food")
+                    {
+                        Console.WriteLine($"{matchStudenttoName}'s favorite food is {matchStudenttoFood}.");
+                    }
+                    else if (input2 == "age")
+                    {
+                        Console.WriteLine($"{matchStudenttoName} is {matchStudenttoAge}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Try again");
+                        continue;
+                    }
+                    Console.WriteLine("Would you like to know more about this student? Enter \"y\" or \"n\"");
+                    string input3 = Console.ReadLine().ToLower().Trim();
 
-            }
-                
-                
+                    if (input3 == "y")
+                    {
+                        continue;
+                    }
+                    else if (input3 == "n")
+                    {
+                        Console.WriteLine("Great, I hope you know more about that student now.");
+                        knowMore = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Try again.");
+                        continue;
+                    }
+                }
+
                 bool askAgain = true;
                 while (askAgain)
                 {
@@ -122,12 +139,10 @@ namespace Lab_8___Get_to_Know_Your_Classmates
                         Console.WriteLine("Invalid input.  Try again");
                         continue;
                     }
-                    
-
 
                 }
-            
 
+            }
         }
             
     }
